@@ -7,10 +7,21 @@ import math
 C = 50
 H = 30
 values = []
-value = []
+
+#x for x cach ghi tat : nested    
 items=[x for x in input("Nhập giá trị của d: ").split(',')]
+
+#tuong tu nhu items tren
+#items = []
+#for x in input("Nhap gia tri: ").split(','):
+#    items.append(x)
+
 
 for d in items:
     values.append(str(int(round(math.sqrt(2 * C * float(d) / H)))))
 
 print(','.join(values))
+
+text = "word1anotherword23nextone456lastone333"
+numbers = [x for x in text if x.isdigit()]
+print(numbers)
