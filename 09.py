@@ -15,6 +15,7 @@ items=[x for x in input("Nhập giá trị của d: ").split(',')]
 #items = []
 #for x in input("Nhap gia tri: ").split(','):
 #    items.append(x)
+# docs: https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
 
 
 for d in items:
