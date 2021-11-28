@@ -5,7 +5,10 @@
 #('34', '67', '55', '33', '12', '98')
 
 x = input("Nhap gia tri: ")
-l = x.split(',')
-t = tuple(l)
+l = x.split(',') #list
+t = tuple(l) #tuple
+
+print(type(x))
+print(x)
 print(l)
 print(t)
