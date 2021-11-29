@@ -8,10 +8,16 @@ print(dimension)
 
 rowNum = dimension[0]
 colNum = dimension[1]
+multilist = []
 
 multilist = [[0 for col in range(colNum)] for row in range(rowNum)]
-print(multilist)
 
+
+#for col in range(colNum):
+ #   multilist.append(0)
+
+
+print(multilist)
 
 for row in range(rowNum):
     for col in range(colNum):
