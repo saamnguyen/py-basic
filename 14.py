@@ -10,7 +10,8 @@ a = []
 items = [x for x in input("Nhap: ").split(',')]
 
 for p in items:
-    intp = int(p, 2)
+    intp = int(p, 2)# convert thanh so binh thuong
+    print(intp)
     if not intp % 5:
         a.append(p)
 
